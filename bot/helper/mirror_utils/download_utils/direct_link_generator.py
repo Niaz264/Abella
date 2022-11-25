@@ -8,13 +8,11 @@ from https://github.com/AvinashReddy3108/PaperplaneExtended . I hereby take no c
 than the modifications. See https://github.com/AvinashReddy3108/PaperplaneExtended/commits/master/userbot/modules/direct_links.py
 for original authorship. """
 
-import math
-
-from requests import get as rget, head as rhead, post as rpost, Session as rsession
-from re import findall as re_findall, sub as re_sub, match as re_match, search as re_search
+import cloudscraper
 import requests
+import math
 import re
-from time import sleep
+
 from hashlib import sha256
 from base64 import b64decode
 from urllib.parse import urlparse, unquote
@@ -23,17 +21,9 @@ from lk21 import Bypass
 from cfscrape import create_scraper
 from bs4 import BeautifulSoup
 from base64 import standard_b64encode
-from base64 import b64decode
-from urllib.parse import urlparse, unquote, parse_qs
-from json import loads as jsonloads
-from lk21 import Bypass
+from time import sleep
 from lxml import etree
-from cfscrape import create_scraper
-import cloudscraper
-from bs4 import BeautifulSoup
-from base64 import standard_b64encode
-from selenium import webdriver
-from selenium.webdriver.common.by import By
+
 
 from bot import LOGGER, UPTOBOX_TOKEN, CRYPT, UNIFIED_EMAIL, UNIFIED_PASS, HUBDRIVE_CRYPT, KATDRIVE_CRYPT, DRIVEFIRE_CRYPT
 from bot.helper.telegram_helper.bot_commands import BotCommands
