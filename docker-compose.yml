@@ -10,9 +10,9 @@ services:
       - /dev/net/tun:/dev/net/tun
     environment:
       - VPN_SERVICE_PROVIDER=protonvpn
-      - OPENVPN_USER=NMF6to2HYV7ZNoJj
-      - OPENVPN_PASSWORD=0QIPKTS8uaZnnkNVmBo19d5ttaS8wyde
-      - SERVER_COUNTRIES=Netherlands            # See https://github.com/qdm12/gluetun/wiki
+      - OPENVPN_USER=WcLEVOon5SWkTPJb
+      - OPENVPN_PASSWORD=OovAXvtAIVVRcnZF3s7RlnUB0qawn5zA
+      - SERVER_COUNTRIES=Japan           # See https://github.com/qdm12/gluetun/wiki
       
       
       
