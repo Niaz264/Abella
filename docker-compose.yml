@@ -9,11 +9,14 @@ services:
     devices:
       - /dev/net/tun:/dev/net/tun
     environment:
-      - VPN_SERVICE_PROVIDER=            # See https://github.com/qdm12/gluetun/wiki
-      - VPN_TYPE=openvpn
-      - OPENVPN_USER=
-      - OPENVPN_PASSWORD=
-      - SERVER_COUNTRIES=                # See https://github.com/qdm12/gluetun/wiki 
+      - VPN_SERVICE_PROVIDER=protonvpn
+      - OPENVPN_USER=NMF6to2HYV7ZNoJj
+      - OPENVPN_PASSWORD=0QIPKTS8uaZnnkNVmBo19d5ttaS8wyde
+      - SERVER_COUNTRIES=Netherlands            # See https://github.com/qdm12/gluetun/wiki
+      
+      
+      
+                      # See https://github.com/qdm12/gluetun/wiki 
     ports:
       - "80:80"                          # Add ports that you want to expose
       - "8080:8080"
